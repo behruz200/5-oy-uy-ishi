@@ -7,8 +7,17 @@
     list-style: none;
 }
 
+.clc:hover {
+    box-shadow: 1px 2px 3px 2px rgb(104, 103, 103);
+    cursor: pointer;
+    transition: .5s;
+}
 
-
+.lar:hover {
+    box-shadow: 1px 2px 3px 2px rgb(104, 103, 103);
+    cursor: pointer;
+    transition: .5s;
+}
 
 .logo {
     padding: 0 10px;
@@ -320,6 +329,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 60px;
+    margin-top: 200px;
 }
 
 .por {
@@ -970,10 +980,13 @@ section {
 
 footer {
     /* margin-top: 550px; */
+    margin-top: 200px;
 }
-.be{
+
+.be {
     margin-left: 104px;
 }
+
 .dark {
     margin-top: 514px;
 
@@ -982,7 +995,14 @@ footer {
 .container {
     max-width: 1440px;
     /* border: 1px solid; */
-    height: 1400px;
+    height: 400px;
     margin: 0 auto;
     position: relative;
+}
+
+@media only screen and (max-width:350px) {
+    .be {
+        justify-content: center;
+    }
+
 }
